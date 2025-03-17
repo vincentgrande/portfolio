@@ -1,0 +1,13 @@
+select {
+    appearance: none; /* Supprime le style par défaut du navigateur */
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  select img {
+    vertical-align: middle; /* Aligne les images verticalement */
+    margin-right: 8px;
+  }
