@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-experience-card',
@@ -6,10 +7,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./experience-card.component.scss'],
   standalone: true,
 })
-export class ExperienceCardComponent  implements OnInit {
+export class ExperienceCardComponent implements OnInit {
+  @Input() experience: any;
+  @Input() type: string = 'experience';
+  title: string = '';
+  description: string = '';
+  date: string = '';
+  dateClass: string = 'text-primary';
 
-  constructor() { }
+  constructor(private translate: TranslateService) {}
 
-  ngOnInit() {}
-
+  ngOnInit() {
+    const lang = this.translate.currentLang;
+    this.title = this.experience[`title_${lang}`];
+    this.description = this.experience[`description_${lang}`];
+    this.date = this.experience[`date_${lang}`];
+    this.dateClass = this.type === 'experience' ? 'text-primary' : 'text-secondary';
+  }
 }

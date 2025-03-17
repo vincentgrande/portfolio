@@ -1,0 +1,82 @@
+{
+  "experiences": [
+    {
+      "date_fr": "Oct 2022 - Avril 2024",
+      "date_en": "Oct 2022 - April 2024",
+      "title_fr": "Développeur web & applications en alternance",
+      "title_en": "Web & Application Developer (Apprenticeship)",
+      "description_fr": "Développement d'applications web et mobiles pour Lidl France.",
+      "description_en": "Development of web and mobile applications for Lidl France.",
+      "location": "Strasbourg, France"
+    },
+    {
+      "date_fr": "Sept 2021 - Sept 2022",
+      "date_en": "Sept 2021 - Sept 2022",
+      "title_fr": "Développeur web & applications en alternance",
+      "title_en": "Web & Application Developer (Apprenticeship)",
+      "description_fr": "Développement et maintenance d'applications web pour FMLogistic.",
+      "description_en": "Development and maintenance of web applications for FMLogistic.",
+      "location": "Phalsbourg, France"
+    },
+    {
+      "date_fr": "Sept 2019 - Août 2021",
+      "date_en": "Sept 2019 - Aug 2021",
+      "title_fr": "Technicien support et gestionnaire de parc en alternance",
+      "title_en": "Support Technician and Fleet Manager (Apprenticeship)",
+      "description_fr": "Support technique et gestion du parc informatique chez FMLogistic.",
+      "description_en": "Technical support and IT fleet management at FMLogistic.",
+      "location": "Phalsbourg, France"
+    }
+  ],
+  "education": [
+    {
+      "date_fr": "2022 - 2024",
+      "date_en": "2022 - 2024",
+      "title_fr": "ESIEE-IT / CCI Campus",
+      "title_en": "ESIEE-IT / CCI Campus",
+      "description_fr": "Master Manager en ingénierie informatique. (Obtenue)",
+      "description_en": "Master's degree in Computer Engineering Management. (Obtained)",
+      "location": "Strasbourg, France"
+    },
+    {
+      "date_fr": "2021 - 2022",
+      "date_en": "2021 - 2022",
+      "title_fr": "CCI Campus",
+      "title_en": "CCI Campus",
+      "description_fr": "Licence professionnelle Concepteur Développeur d'Applications. (Obtenue)",
+      "description_en": "Bachelor's degree in Application Design and Development. (Obtained)",
+      "location": "Strasbourg, France"
+    },
+    {
+      "date_fr": "2019 - 2021",
+      "date_en": "2019 - 2021",
+      "title_fr": "CCI Campus",
+      "title_en": "CCI Campus",
+      "description_fr": "BTS Services Informatiques aux Organisations. (Obtenu 15,11/20)",
+      "description_en": "BTS in IT Services to Organizations. (Obtained 15.11/20)",
+      "location": "Strasbourg, France"
+    },
+    {
+      "date_fr": "2016 - 2019",
+      "date_en": "2016 - 2019",
+      "title_fr": "Lycée du Haut Barr",
+      "title_en": "Lycée du Haut Barr",
+      "description_fr": "BAC STI2D Sciences et Technologies de l'Industrie et du Développement Durable. (Mention bien)",
+      "description_en": "BAC STI2D Sciences and Technologies of Industry and Sustainable Development. (Good distinction)",
+      "location": "Saverne, France"
+    }
+  ],
+  "skills": [
+    "HTML/CSS",
+    "JavaScript",
+    "C# ASP.NET",
+    "Angular",
+    "SQL",
+    "PHP (Laravel)",
+    "Wordpress",
+    "Python",
+    "Docker",
+    "Leadership",
+    "Agile"
+  ]
+}
